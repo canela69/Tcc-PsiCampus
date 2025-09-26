@@ -1,0 +1,97 @@
+body {
+    background-image: url('sobre.png');
+    background-size: 100%;      /* Aumenta o zoom da imagem */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Arial, sans-serif; /* Fonte moderna */
+    color: #333;
+    /* Remova o text-align: center */
+}
+.topo {
+    background-color: #4b4d50;
+     margin: 10px auto 10px auto; /* Centraliza horizontalmente */
+    width: 30%;
+    color: rgb(227, 223, 223);
+    font-weight: bold;
+    padding: 2px 0;         /* Diminui a altura do fundo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;    /* Diminui o arredondamento */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    padding: 20px 10px 10px 10px;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(255, 241, 241, 0.05);
+    text-align: center; /* Adiciona alinhamento à esquerda */
+}
+
+.texto h1 {
+    margin-bottom: 18px;
+    font-size: 2em;
+    color: #0f1319;
+}
+
+.texto p {
+    color: black;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.texto ul {
+    color: black;
+    list-style: none; /* Remove os pontos */
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+
+.texto ul li {
+    color: black;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.menu {
+    background-color: rgba(249, 250, 251, 0.85); /* Levemente mais visível */
+    width: 40%;
+    margin: 0 auto 30px auto;
+    padding: 10px 0;
+    box-shadow: 0 4px 12px rgba(52, 34, 34, 0.12);
+    border-bottom: 2px solid #bc9191;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .navegacao ul {
+    list-style: none;      /* Remove os pontos */
+    padding: 0;
+    margin: 0;
+    display: flex;         /* Itens lado a lado */
+    gap: 24px;             /* Espaço entre os itens */
+}
+
+.menu .navegacao ul li a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #0b0e13;
+    font-weight: bold;
+    font-family: 'Montserrat', Arial, sans-serif;
+    padding: 8px 18px;
+    border-radius: 10px;
+    transition: background 0.3s, color 0.3s;
+    background: transparent;
+    font-size: 1.05em;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.menu .navegacao ul li a:hover {
+    background: #000000;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
